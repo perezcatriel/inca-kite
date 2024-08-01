@@ -6,10 +6,34 @@
       <div class="content">
         <div class="card">
           <h2 class="about-title">Sobre Inca Kite</h2>
-          <p class="about-description">
-            Bienvenido a Inca Kite, tu destino principal para el kitesurf en la idílica Lagoa do Paraiso en Jericoacoara, Brasil. Fundada y dirigida por Roberto, un experimentado instructor peruano con más de una década de experiencia en el deporte, nuestra escuela ofrece clases adaptadas a todos los niveles de habilidad. Además, ofrecemos los mejores kites de la marca Core, asegurando que tengas el equipo más avanzado para disfrutar al máximo de tu experiencia. ¡Únete a nosotros y experimenta la emoción del kitesurf en un entorno inigualable!
-          </p>
-          <router-link to="/services" class="cta">¡Reserva tu clase ahora!</router-link>
+          <div class="about-description">
+            <p>
+              Bienvenido a Inca Kite, el destino líder para el kitesurf en la
+              espectacular Lagoa do Paraiso, Jericoacoara, Brasil.
+            </p>
+            <p>
+              Nuestra escuela está dirigida por Roberto, un instructor de
+              kitesurf originario del Perú, que ha dedicado más de 10 años a
+              perfeccionar su arte. Tras vivir en Europa y Brasil, Roberto ha
+              adquirido una perspectiva global y una maestría única en el
+              deporte, persiguiendo los mejores vientos alrededor del mundo.
+            </p>
+            <p>
+              En Inca Kite, ofrecemos clases personalizadas para todos los
+              niveles, desde principiantes hasta expertos, adaptadas a tus
+              necesidades y habilidades. Equipamos nuestras lecciones con los
+              kites más avanzados de la marca Core, garantizando la máxima
+              calidad y rendimiento en cada sesión.
+            </p>
+            <p>
+              Únete a nosotros para experimentar la emoción del kitesurf en el
+              entorno paradisíaco de Jericoacoara. ¡Con Inca Kite, tu aventura
+              en el kitesurf alcanza nuevas alturas!
+            </p>
+          </div>
+          <router-link to="/services" class="cta"
+            >¡Reserva tu clase ahora!</router-link
+          >
         </div>
       </div>
     </section>
@@ -38,11 +62,11 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 60px 20px; /* Padding adaptado para móviles */
+  padding: 80px 20px; /* Aumento del padding para móviles */
   background-image: url("@/assets/kite-salto.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh; /* Asegura que la sección tenga al menos la altura de la ventana */
   color: white;
 }
 
@@ -63,9 +87,14 @@ export default {
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.9); /* Fondo blanco traslúcido para la tarjeta */
+  background: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Fondo blanco traslúcido para la tarjeta */
   border-radius: 10px;
-  padding: 15px;
+  padding: 20px; /* Aumento del padding en la tarjeta */
   max-width: 90%; /* Ancho máximo adaptado para móviles */
   margin: 0 auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -105,7 +134,7 @@ export default {
 
   .card {
     max-width: 800px; /* Ancho máximo más grande para pantallas grandes */
-    padding: 20px;
+    padding: 30px; /* Aumento del padding en la tarjeta */
   }
 
   .about-title {
