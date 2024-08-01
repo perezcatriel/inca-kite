@@ -6,7 +6,7 @@
     </h1>
     <nav :class="{ 'nav-open': isMenuOpen }">
       <ul>
-        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/">Inicio</router-link></li>
         <li><router-link to="/about">Sobre Inca Kite</router-link></li>
         <li><router-link to="/services">Aulas</router-link></li>
         <li><router-link to="/products">Productos</router-link></li>
