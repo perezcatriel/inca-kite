@@ -59,7 +59,7 @@ export default {
   align-items: center;
   text-align: center;
   padding: 50px 20px; /* Ajustado para mobile-first */
-  background-image: url('@/assets/kite.jpg');
+  background-image: url('@/assets/kite-equipo.jpg');
   background-size: cover;
   background-position: center;
   min-height: 100vh; /* Usar min-height para asegurar que cubra toda la pantalla */

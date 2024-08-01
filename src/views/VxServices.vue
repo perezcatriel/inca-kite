@@ -60,7 +60,7 @@ export default {
   align-items: center;
   text-align: center;
   padding: 60px 20px;
-  background-image: url("@/assets/kite.jpg");
+  background-image: url("@/assets/kite-mujer.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;

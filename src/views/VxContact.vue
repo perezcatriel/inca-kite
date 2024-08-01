@@ -53,7 +53,7 @@ export default {
   align-items: center;
   text-align: center;
   padding: 10vh 5vw;
-  background-image: url('@/assets/kite.jpg'); /* Asegúrate de que la imagen esté en la carpeta adecuada */
+  background-image: url('@/assets/kite-fondo.jpg'); /* Asegúrate de que la imagen esté en la carpeta adecuada */
   background-size: cover;
   background-position: center;
   min-height: 100vh;
