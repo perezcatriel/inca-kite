@@ -30,19 +30,19 @@ export default {
         {
           title: "Kite Core XR6",
           description: "Un kite versátil y de alto rendimiento.",
-          image: require("@/assets/kite.jpg"),
+          image: require("@/assets/kite-salto.jpg"),
           whatsappNumber: "123456789"
         },
         {
           title: "Kite Core GTS5",
           description: "Para aquellos que buscan potencia y maniobrabilidad.",
-          image: require("@/assets/kite.jpg"),
+          image: require("@/assets/kite-mujer.jpg"),
           whatsappNumber: "123456789"
         },
         {
           title: "Kite Core Nexus 2",
           description: "Ideal para condiciones de viento variadas.",
-          image: require("@/assets/kite.jpg"),
+          image: require("@/assets/kite-fondo.jpg"),
           whatsappNumber: "123456789"
         },
       ],

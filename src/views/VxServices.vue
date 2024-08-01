@@ -36,13 +36,13 @@ export default {
         {
           title: "Clase Intermedia",
           description: "Mejora tus habilidades y técnicas.",
-          image: require("@/assets/kite.jpg"), // Ruta de la imagen para la Clase Intermedia
+          image: require("@/assets/kite-equipo.jpg"), // Ruta de la imagen para la Clase Intermedia
           whatsappNumber: "1234567890" // Número de WhatsApp para la Clase Intermedia
         },
         {
           title: "Clase Avanzada",
           description: "Perfecciona tus maniobras y técnicas avanzadas.",
-          image: require("@/assets/kite.jpg"), // Ruta de la imagen para la Clase Avanzada
+          image: require("@/assets/kite-fondo.jpg"), // Ruta de la imagen para la Clase Avanzada
           whatsappNumber: "1234567890" // Número de WhatsApp para la Clase Avanzada
         },
       ],
